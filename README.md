@@ -98,3 +98,7 @@ TARGET_LANG_CODE
 7. After they've picked up, press 'y' in the terminal to start making a noise profile. Two other terminals will open up.
 8. After noise profile is created, You may speak.
 9. To conclude the call, go to the first terminal (not the two that are recording you), press Ctrl+C (You'll see the other two terminals go away with your messanger) then either press 'y' to delete the temporary speech files or 'n' to save them.
+
+
+
+<b>Disclaimer:</b> This is a hackathon project, submitted [here](http://devpost.com/software/salut-hsr4px) for YHack 2015.
