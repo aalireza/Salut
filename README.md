@@ -71,6 +71,7 @@ it's Skype's output, an additional noise cancellation will be done on his speech
 - [PulseAudio](https://wiki.freedesktop.org/www/Software/PulseAudio/)
 - [Sox](http://sox.sourceforge.net/)
 - `libsox-fmt-all` (especifically `libsox-fmt-pulse` and `libsox-fmt-mp3`)
+- splitvt
 - [gTTS](https://pypi.python.org/pypi/gTTS/)
 - [PyAudio](https://pypi.python.org/pypi/PyAudio)
 - [Speech Recognition](https://pypi.python.org/pypi/SpeechRecognition/)
@@ -82,9 +83,7 @@ it's Skype's output, an additional noise cancellation will be done on his speech
 
 <b>Remark:</b> Making PulseAudio work on OS X may be problematic. Nonetheless I've inserted an AppleScript that's supposed to run the program the same way it would have been run had you had linux provided that all other dependencies are satisfied. Instead of PulseAudio, one could use [Soundflower](https://github.com/RogueAmoeba/Soundflower) with a slight change in subprocess.Popens that call sox... However I haven't had enough time to implement it.
 
-<b>Remark:</b> It won't work on Windows categorically.
-
-<b>Remark:</b> You may install libsox libraries via `apt-get` if you're on Ubuntu.
+<b>Remark:</b> You may install libsox libraries and splitvt via `apt-get` if you're on Ubuntu.
 
 ---
 <h3> How to work with it: </h3>
