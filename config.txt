@@ -1,0 +1,31 @@
+[System]
+
+# Enter the absolute path to the messenger of your choice.
+MESSENGER = /usr/bin/skype
+
+# Absolute path of sounds:
+SAY = data/1.mp3
+REPEAT = data/2.mp3
+
+
+[Languages]
+
+# Enter your language code.
+SELF_LANG_CODE = en
+
+# Enter your target's language code.
+TARGET_LANG_CODE = es
+
+
+[MicrosoftAzure]
+
+CLIENT_ID = Something
+CLIENT_TRANSLATE_SECRET = Something
+CLIENT_OXFORD_KEY = Something
+
+
+[Nuance]
+
+APP_ID = Something
+APP_KEY = Something
+
